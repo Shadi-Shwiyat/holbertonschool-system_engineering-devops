@@ -1,4 +1,5 @@
 #!/bin/bash
+#Script pushes code to github
 git add .
 echo 'Enter commit title: '
 read commit_title
