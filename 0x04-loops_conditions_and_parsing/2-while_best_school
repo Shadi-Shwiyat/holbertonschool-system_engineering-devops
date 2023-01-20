@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #Script uses while loop to print Best School 10 times
 
 i=1
