@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 #Script uses while loop to print Best School 10 times, but on the 9th time uses an if statement to change the iteration to Hi
 
-i=1
-while [ $i -le 9 ]
+i=0
+while [ $i -lt 10 ]
 do
 	if [ $i = 9 ]
         then
              echo "Hi"
-        fi
+        fii
 	echo "Best School"
 	((i++))
 done
