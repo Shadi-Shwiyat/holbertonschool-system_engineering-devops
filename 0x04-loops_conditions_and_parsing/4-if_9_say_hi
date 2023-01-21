@@ -2,14 +2,14 @@
 #Script uses while loop to print Best School 10 times, but on the 9th time uses an if then  statement to change the iteration to print HI
 
 
-count=0
+i=0
 
-while [ $count -lt 10 ]
+while [ $i -lt 10 ]
 do
-  if [ $count -eq 9 ]
+  if [ $i -eq 9 ]
   then
     echo "Hi"
   fi
   echo "Best School"
-  (( count++ ))
+  (( i++ ))
 done
