@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
-#Script uses while loop to print Best School 10 times, but on the 9th time uses an if statement to change the iteration to Hi
+#Script uses while loop to print Best School 10 times, but on the 9th time uses an if then  statement to change the iteration to print HI
 
-i=0
-while [ $i -lt 10 ]
+
+count=0
+
+while [ $count -lt 10 ]
 do
-	if [ $i = 9 ]
-        then
-             echo "Hi"
-        fii
-	echo "Best School"
-	((i++))
+  if [ $count -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( count++ ))
 done
