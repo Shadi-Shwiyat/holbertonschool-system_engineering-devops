@@ -3,7 +3,7 @@
 #if it is empty, and if is a regular file or not. 
 
 
-if [ -e ~/school ]
+if [ -e school ]
 then
 	echo "school file exists"
 	if [ -s school ]
@@ -17,7 +17,7 @@ else
 
 fi
 
-if [ -f ~/school ]
+if [ -f school ]
 then
 	echo "school is a regular file"
 fi
