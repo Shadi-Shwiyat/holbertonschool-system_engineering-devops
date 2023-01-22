@@ -12,7 +12,7 @@ do
 
 	while [ $MINUTES -le 59 ]
 	do
-		sleep 60
+	
 		echo "$MINUTES"
 		(( MINUTES++ ))
 	done
