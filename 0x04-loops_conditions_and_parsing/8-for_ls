@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Script uses for loop and the ls command to display pwd, and combining it
+#with the cut command to remove the first field of the results.
+
+myvar=$(ls)
+
+for i in $myvar
+do
+	echo "$i" | cut -d - -f 2
+done
