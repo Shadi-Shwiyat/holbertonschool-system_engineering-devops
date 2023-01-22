@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#Script uses sleep command in while loop to display the minutes, recording every
+#hour and displaying the hour until 12 hours and 59 minutes.
+
+HOUR=0
+
+while [ $HOUR -le 12 ]
+do
+	echo "Hour: $HOUR"
+	
+	MINUTES=1
+
+	while [ $MINUTES -le 59 ]
+	do
+		sleep 60
+		echo "$MINUTES"
+		(( MINUTES++ ))
+	done
+	(( HOUR++))
+done
