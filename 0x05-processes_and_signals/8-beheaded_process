@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script uses SIGKILL to terminate the highlander process
+
+pkill -9 -f 7-highlander
