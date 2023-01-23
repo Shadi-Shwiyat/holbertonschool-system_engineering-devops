@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script end task 4 process without useing kill or killall commands
+
+pkill -f 7-highlander
