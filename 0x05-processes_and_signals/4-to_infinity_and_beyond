@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script uses infinite loop to print "To infinity and beyond"
+
+i=1
+while [ 1 -le 10 ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
