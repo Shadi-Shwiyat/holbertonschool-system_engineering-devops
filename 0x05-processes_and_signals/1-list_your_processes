@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Script displays current running processes, for all users including those that 
+#do not hav a TTY. Displayed in user-oriented format with process hierarchy.
+
+ps -erf
